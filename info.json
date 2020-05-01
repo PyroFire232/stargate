@@ -1,0 +1,10 @@
+{
+	"name": "stargate",
+	"version": "0.1.0",
+	"title": "Stargate",
+	"author": "PyroFire",
+	"dependencies": ["base >= 0.18"],
+	"description": "Factorio but with stargates",
+	"factorio_version": "0.18",
+	"homepage":"none"
+}
