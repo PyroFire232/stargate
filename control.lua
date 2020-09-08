@@ -630,7 +630,7 @@ function stargate.OpenMenu(ply,e,gate)
 		menu.toolbar=fflow
 		menu.title=fflow.add{name="stargate_title",type="label",style="heading_1_label",drag_target=menu.frame,caption=gate.name,drag_target=menu.frame}
 		menu.rntxt=fflow.add{name="stargate_rename_txt",type="textfield",visible=false,text=gate.name}
-		menu.rename=fflow.add{name="stargate_rename",type="sprite-button",sprite="utility/rename_icon_small",style="tool_button",visible=(e.force==ply.force)} --small_slot_button
+		menu.rename=fflow.add{name="stargate_rename",type="sprite-button",sprite="utility/rename_icon_small_black",style="tool_button",visible=(e.force==ply.force)} --small_slot_button
 
 		menu.dragbar=fflow.add{type="empty-widget",direction="horizontal",style="draggable_space_header"}
 		menu.dragbar.drag_target=menu.frame
